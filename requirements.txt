@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-jose[cryptography]
+bcrypt
+python-multipart
+sqlalchemy>=2.0.36
+scikit-learn
+numpy
+python-dotenv
+httpx

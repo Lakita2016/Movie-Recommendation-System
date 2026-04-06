@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Picks — CineAI</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <nav class="navbar" id="navbar"></nav>
+
+  <div class="recommend-page">
+    <div class="recommend-header">
+      <h1>Find Your Next Movie</h1>
+      <p>Describe what you're in the mood for and we'll find the best matches.</p>
+
+      <form id="search-form" class="search-bar">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="e.g. dark sci-fi thriller from the 2010s…"
+          autocomplete="off"
+        />
+        <button type="submit" id="search-btn" class="btn btn-red">Search</button>
+      </form>
+
+      <div class="chips" id="chips"></div>
+    </div>
+
+    <div class="results-grid" id="results-grid"></div>
+  </div>
+
+  <script type="module" src="/js/recommend.js"></script>
+</body>
+</html>
